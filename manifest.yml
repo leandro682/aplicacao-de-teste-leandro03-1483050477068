@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-leandro03
+  host: aplicacao-de-teste-leandro03
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-leandro03-AdvancedMobileAccess
+  - aplicacao-de-teste-leandro03-imfpush
+  - aplicacao-de-teste-leandro03-cloudantNoSQLDB
